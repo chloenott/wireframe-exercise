@@ -1,0 +1,80 @@
+@import url("reset.css");
+
+#content-bounds {
+    width: 990px;
+    margin: auto;
+    border: 0px solid black;
+}
+
+* {
+    font-size: 0px;
+}
+
+header {
+    padding: 5px;
+    margin: 0 15px 15px 15px;
+    background-color: grey;
+}
+
+#header-img, nav {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 15px;
+}
+
+nav li {
+    display: inline-block;
+    padding-right: 30px;
+    font-size: 16pt;
+    border: 1px solid black;
+}
+
+header #header-img {
+    width: 200px;
+    height: 70px;
+    background-color: black;
+}
+
+.horizontal-group-1_item div {
+    width: 960px;
+    height: 450px;
+    margin: 15px;
+    background-color: grey;
+    display: inline-block;
+}
+
+.horizontal-group-3_items div {
+    width: 300px;
+    height: 375px;
+    margin: 15px;
+    background-color: grey;
+    display: inline-block;
+}
+
+.horizontal-group-2_items {
+    display: flex;
+}
+
+.horizontal-group-2_items div:first-child {
+    flex-basis: auto;
+    width: 480px;
+    height: 400px;
+    margin: 15px;
+    font-size: 0px;
+    background-color: grey;
+    order: 1;
+}
+
+.horizontal-group-2_items div:last-child {
+    flex-grow: 2;
+    height: 400px;
+    margin: 15px;
+    background-color: grey;
+    order: 2;
+}
+
+footer {
+    height: 130px;
+    margin: 15px;
+    background-color: grey;
+}
